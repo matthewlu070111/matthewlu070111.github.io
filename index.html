@@ -1,4 +1,46 @@
-<h3>欢迎来到matthewlu070111的主页。</h3>
-<p>我制作了两个开源项目，希望能帮助到各位码农们。</p>
-<a href="https://github.com/matthewlu070111/quick-search" target="_blank">快搜</a>
-<a href="https://github.com/matthewlu070111/tyl-hxdlb" target="_blank">tyl-花心大萝卜</a>
+<!DOCTYPE html>
+<html lang="zh_CN">
+<style>
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #f1f1f1;
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    li{
+        float: left;
+    }
+    li a{
+        display: block;
+        color: #000000;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a.active{
+        background-color: #4caf50;
+        color: white;
+    }
+    li a:hover:not(.active){
+        background-color: #555555;
+        color: white;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="#home" class="active">博客主页</a></li>
+        <li><a href="https://github.com/matthewlu070111/tyl-hxdlb">tyl-hxdlb项目</a></li>
+        <li><a href="https://github.com/matthewlu070111/quick-search">quick-search项目</a></li>
+    </ul>
+</body>
+</html>
